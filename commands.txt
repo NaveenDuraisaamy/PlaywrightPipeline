@@ -1,0 +1,154 @@
+Playwright
+----------
+Application Support-Web browser, mobile browser, API.
+Language Support- JavaScript, TypeScript, Java, Python & .Net(C#).
+Browser Supported- Chromium, Webkit(Safari) and FireFox(Headed/Headless).
+OS Supported- Windows, MacOS, Linux, Support CI Runs.
+
+Feature Playwright
+------------------
+Free & Open Source
+Multi-Browser, Multi-Language
+Easy Setup and Configuration
+Functional, API, accessibility Testing
+Built-in Reporters, Custom Report
+CI,CD, Docker
+Parallel Testing
+Auto wait
+Built-in assertions
+Multi tab & Multi window
+Frames, Shadow Dom
+Test Parameter
+Emulate Mobile Devices
+
+PlayWright Installation
+-----------------------
+Node JS
+NPM
+VS Code
+
+Create Folder
+Open Terminal
+npm init playwright@latest
+
+package.json-node project management file.
+playwright.config.ts-playwright configuration.
+npm playwright -v --return installed version of playwright.
+
+Run the Playwright text
+-----------------------
+npx playwright test
+npx playwright test tests/login.spec.ts
+npx playwright test tests/login.spec.ts --project=chromium
+npx playwright test --headed
+npx playwright test tests/login.spec.ts --project=chromium --headed
+npx playwright test tests/login.spec.ts --project=chromium --headed --debug
+npx playwright show-report
+
+Locator
+--------
+Page.locator('#naveen','naveen');
+Page.locator('#naveen').fill('naveen');
+Page.click('naveen');
+Page.locator('#naveen').click();
+page.$('naveen');
+Page.$$('naveen');
+
+await page.locator('#id');                  // By id
+await page.locator('.class');               // By class
+await page.locator('text=Login');           // By text
+await page.getByRole('button', { name: 'Login' }); // By role
+await page.getByPlaceholder('Enter name');  // By placeholder
+await page.getByLabel('Email');             // By label
+await page.getByText('User Avatar');        // By Text
+await page.getByAltText('User Avatar');     // By alt text
+await page.getByTitle('User Avatar');       // By Title
+await page.getByTestId('submit-btn');       // By test-id
+
+Record & Play Script
+--------------------
+
+npx playwright codegen
+npx playwright codegen -o tests/mytest.spec.js
+npx playwright codegen --target typescript
+npx playwright codegen --browser chromium
+npx playwright codegen --device 'iPhone 13'
+npx playwright codegen --viewport-size "1280,720"
+
+Assertions
+----------
+
+import { test, expect } from "@playwright/test";
+
+test("All Playwright Expect Examples", async ({ page }) => {
+  // Navigate
+  await page.goto("https://example.com");
+
+  // 1. Page Title
+  await expect(page).toHaveTitle(/Example/);
+
+  // 2. Page URL
+  await expect(page).toHaveURL("https://example.com");
+
+  // 3. Element Visible
+  await expect(page.locator(".class")).toBeVisible();
+
+  // 4. Element Disabled
+  await expect(page.locator("#submit")).toBeDisabled();
+
+  // 5. Checkbox Checked
+  await expect(page.locator("#agree")).toBeChecked();
+
+  // 6. Attribute Validation
+  await expect(page.locator("#playwright-link"))
+    .toHaveAttribute("href", "https://playwright.dev");
+
+  // 7. Contain Text
+  await expect(page.locator("#msg"))
+    .toContainText("Welcome");
+
+  // 8. Input Value
+  await page.setContent(`<input id="username" value="Naveen" />`);
+  await expect(page.locator("#username")).toHaveValue("Naveen");
+
+  // 9. Exact Text
+  await page.setContent(`<div id="msg">Success!</div>`);
+  await expect(page.locator("#msg")).toHaveText("Success!");
+
+  // 10. Count of Elements
+  await page.setContent(`
+    <ul id="list">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+  `);
+  await expect(page.locator("#list li")).toHaveCount(3);
+});
+
+//Handle Input
+await expect(await page.locator(.class)).toBeVisible();
+await expect(await page.locator(.class)).toBeEmpty();
+await expect(await page.locator(.class)).toBeEditable();
+await expect(await page.locator(.class)).toBeEnabled();
+
+await expect(await page.locator(.class)).toBeChecked();
+await expect(await page.locator(.class)).isChecked().toBeTruthy();
+await expect(await page.locator(.class)).isChecked().toBeFalsy();
+
+
+Git Commands
+------------
+git --version
+go inside your project folder open Cmd
+git init
+git add .
+git commit -m "Initial project commit"
+git remote add origin https://github.com/yourusername/playwright-framework.git
+git branch -M main
+git push -u origin main
+
+//After changes
+git add .
+git commit -m "Initial project commit"
+git push
