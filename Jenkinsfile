@@ -16,15 +16,16 @@ pipeline {
 
         stage('Run Playwright Tests') {
             steps {
-                bat 'npx playwright install --with-deps'
+                // Use --reporter=list for console output only
                 bat 'npx playwright test --reporter=list'
             }
         }
 
         stage('Publish Test Report') {
             steps {
-                echo 'Publishing Playwright Test Report...'
-                bat 'npx playwright show-report'
+                echo 'Generating Playwright HTML Report...'
+                // Do NOT open browser, just generate report
+                bat 'npx playwright show-report --no-open'
             }
         }
     }
@@ -32,6 +33,9 @@ pipeline {
     post {
         always {
             echo 'Pipeline finished!'
+
+            // Kill leftover Node/Playwright processes if any
+            bat 'taskkill /IM node.exe /F || exit /b 0'
         }
     }
 }
