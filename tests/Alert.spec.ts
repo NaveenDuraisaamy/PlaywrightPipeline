@@ -2,7 +2,7 @@
 import{Page,test} from '@playwright/test';
 
 
-test('Alarm',async({page})=>{
+test('Alert',async({page})=>{
 
     
     await page.goto('https://testautomationpractice.blogspot.com/');
