@@ -25,7 +25,7 @@ pipeline {
             steps {
                 echo 'Generating Playwright HTML Report...'
                 // Do NOT open browser, just generate report
-                bat 'npx playwright show-report --no-open'
+                bat 'npx playwright show-report'
             }
         }
     }

@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 
+
 test('CheckBox', async ({ page }) => {
 
     await page.goto('https://testautomationpractice.blogspot.com/');
