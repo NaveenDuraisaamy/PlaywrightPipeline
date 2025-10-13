@@ -1,0 +1,217 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "TestifyStack" [ref=e4] [cursor=pointer]:
+      - /url: https://testifystack.com/
+    - text: "| Email, SMS, OTP and Webhooks Testing Stack for QA & Dev"
+    - link "Test case management" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Test case management
+    - link "QA training programs" [ref=e9] [cursor=pointer]:
+      - img [ref=e11]
+      - text: QA training programs
+  - banner [ref=e14]:
+    - navigation "Main navigation" [ref=e15]:
+      - link "SUT" [ref=e16] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e17]'
+        - text: Practice
+      - generic [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - button "Demos" [ref=e21] [cursor=pointer]
+          - listitem [ref=e22]:
+            - link "Tools" [ref=e23] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e24]:
+            - link "Tips" [ref=e25] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e26]:
+            - link "Test Cases" [ref=e27] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e28]:
+            - link "API Testing" [ref=e29] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e30]:
+            - link "About" [ref=e31] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e32] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e33]:
+    - insertion [ref=e37]:
+      - iframe [ref=e39]:
+        - generic [active] [ref=f1e1]:
+          - generic [ref=f1e6]:
+            - link [ref=f1e7] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CUR8uZKrraJG_KPfk29gPt7jJoA_tmbrbgQHHsvPB9hTb2R4QASCVlJmjAWDlkuiD2A6gAZeBycYByAEJqQJu2_2VcjZIPqgDAcgDywSqBPEBT9Cyw5E63IbPlI_-aHUXrSqXnptopqksjZfg5_04RLf2ToifEmVoeo_am9fkwUbmnNc03uX6ljDY7n1KsPbheeveJeb1IfKfpRpAMT5Ragf0fa7AvBDCaIvbOaW7dUGs3hxPAw351Fwyvvrb-Iqoqa4jER6559nvI0havucq5OGRjrlNJvcr21qQ5yt-WJ2DLLiMMsuj18816xTlap4M2qvqNcuLcY0nwTUAvd13uQ3hRMobIMScI_zgTbb-yPB8HLqOYPGA3oKWPBjGaXV9u-ya5mnkEBEgULQ9JRrjt3aZ-58dwSlyrt2RlAd6N00gQ8AEybGHquQEiAXlmuyKT6AGLoAH0f62uQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljclPjF356QA7EJwU9KMKDNhpCACgGYCwHICwGADAGiDAOQAQHaDBAKChCAvc-FoP_6smsSAgEDqg0CSU7IDQHqDRMI1cGJxt-ekAMVd_IWBR03XBL08A0CiA4J2BMCiBQB0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAuTS9BEgo0OTcwMjEyMjIxGAGyGAkSAu9OGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE&num=1&cid=CAQSvwEAwksa0VCGT7RLx4gv4xl6wC0hAhqwMIvQHNG_PWKRza8vO27KOOVTGSno05qW7qEyjBCk-CpgYKA0BFNXkqgR5VIg8vAimcu3-exFq_Hd5sUIDf-KgTZ_D_-lMdhYeAFUc5daYkE4aYDBT4LhfMT7LKc7l5PZ7PqfFyzNPkS-tf5RfEkzZPggUt4JNYKfyGZP5z1445MDI15127wcSS7a8RzYFpFvUhDgo_Oc3kDjWWWEPtiwW4keTJVDtFwE-RgB&sig=AOD64_2QQ_pbsz51IFyWWl3nHQ7BK2n2nw&client=ca-pub-1056034821646296&rf=1&nb=9&adurl=https://www.indiabonds.com/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dpt-google-display-traffic-26april24%26utm_content%3DATFHstatic%26gad_source%3D5%26gad_campaignid%3D21229145445%26gclid%3DEAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE
+              - img [ref=f1e8]
+            - generic [ref=f1e10]:
+              - generic [ref=f1e13]:
+                - link "Invest in AAA Rated Bonds" [ref=f1e16] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CUR8uZKrraJG_KPfk29gPt7jJoA_tmbrbgQHHsvPB9hTb2R4QASCVlJmjAWDlkuiD2A6gAZeBycYByAEJqQJu2_2VcjZIPqgDAcgDywSqBPEBT9Cyw5E63IbPlI_-aHUXrSqXnptopqksjZfg5_04RLf2ToifEmVoeo_am9fkwUbmnNc03uX6ljDY7n1KsPbheeveJeb1IfKfpRpAMT5Ragf0fa7AvBDCaIvbOaW7dUGs3hxPAw351Fwyvvrb-Iqoqa4jER6559nvI0havucq5OGRjrlNJvcr21qQ5yt-WJ2DLLiMMsuj18816xTlap4M2qvqNcuLcY0nwTUAvd13uQ3hRMobIMScI_zgTbb-yPB8HLqOYPGA3oKWPBjGaXV9u-ya5mnkEBEgULQ9JRrjt3aZ-58dwSlyrt2RlAd6N00gQ8AEybGHquQEiAXlmuyKT6AGLoAH0f62uQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljclPjF356QA7EJwU9KMKDNhpCACgGYCwHICwGADAGiDAOQAQHaDBAKChCAvc-FoP_6smsSAgEDqg0CSU7IDQHqDRMI1cGJxt-ekAMVd_IWBR03XBL08A0CiA4J2BMCiBQB0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAuTS9BEgo0OTcwMjEyMjIxGAGyGAkSAu9OGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE&num=1&cid=CAQSvwEAwksa0VCGT7RLx4gv4xl6wC0hAhqwMIvQHNG_PWKRza8vO27KOOVTGSno05qW7qEyjBCk-CpgYKA0BFNXkqgR5VIg8vAimcu3-exFq_Hd5sUIDf-KgTZ_D_-lMdhYeAFUc5daYkE4aYDBT4LhfMT7LKc7l5PZ7PqfFyzNPkS-tf5RfEkzZPggUt4JNYKfyGZP5z1445MDI15127wcSS7a8RzYFpFvUhDgo_Oc3kDjWWWEPtiwW4keTJVDtFwE-RgB&sig=AOD64_2QQ_pbsz51IFyWWl3nHQ7BK2n2nw&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.indiabonds.com/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dpt-google-display-traffic-26april24%26utm_content%3DATFHstatic%26gad_source%3D5%26gad_campaignid%3D21229145445%26gclid%3DEAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE
+                - link "Get complete information about investing in bonds. Explore a wide range of low risk bonds" [ref=f1e19] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CUR8uZKrraJG_KPfk29gPt7jJoA_tmbrbgQHHsvPB9hTb2R4QASCVlJmjAWDlkuiD2A6gAZeBycYByAEJqQJu2_2VcjZIPqgDAcgDywSqBPEBT9Cyw5E63IbPlI_-aHUXrSqXnptopqksjZfg5_04RLf2ToifEmVoeo_am9fkwUbmnNc03uX6ljDY7n1KsPbheeveJeb1IfKfpRpAMT5Ragf0fa7AvBDCaIvbOaW7dUGs3hxPAw351Fwyvvrb-Iqoqa4jER6559nvI0havucq5OGRjrlNJvcr21qQ5yt-WJ2DLLiMMsuj18816xTlap4M2qvqNcuLcY0nwTUAvd13uQ3hRMobIMScI_zgTbb-yPB8HLqOYPGA3oKWPBjGaXV9u-ya5mnkEBEgULQ9JRrjt3aZ-58dwSlyrt2RlAd6N00gQ8AEybGHquQEiAXlmuyKT6AGLoAH0f62uQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljclPjF356QA7EJwU9KMKDNhpCACgGYCwHICwGADAGiDAOQAQHaDBAKChCAvc-FoP_6smsSAgEDqg0CSU7IDQHqDRMI1cGJxt-ekAMVd_IWBR03XBL08A0CiA4J2BMCiBQB0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAuTS9BEgo0OTcwMjEyMjIxGAGyGAkSAu9OGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE&num=1&cid=CAQSvwEAwksa0VCGT7RLx4gv4xl6wC0hAhqwMIvQHNG_PWKRza8vO27KOOVTGSno05qW7qEyjBCk-CpgYKA0BFNXkqgR5VIg8vAimcu3-exFq_Hd5sUIDf-KgTZ_D_-lMdhYeAFUc5daYkE4aYDBT4LhfMT7LKc7l5PZ7PqfFyzNPkS-tf5RfEkzZPggUt4JNYKfyGZP5z1445MDI15127wcSS7a8RzYFpFvUhDgo_Oc3kDjWWWEPtiwW4keTJVDtFwE-RgB&sig=AOD64_2QQ_pbsz51IFyWWl3nHQ7BK2n2nw&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://www.indiabonds.com/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dpt-google-display-traffic-26april24%26utm_content%3DATFHstatic%26gad_source%3D5%26gad_campaignid%3D21229145445%26gclid%3DEAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE
+                  - text: Get complete information about investing in bonds. Explore a wide range of
+                  - text: low risk bonds
+              - generic [ref=f1e22]:
+                - link:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CUR8uZKrraJG_KPfk29gPt7jJoA_tmbrbgQHHsvPB9hTb2R4QASCVlJmjAWDlkuiD2A6gAZeBycYByAEJqQJu2_2VcjZIPqgDAcgDywSqBPEBT9Cyw5E63IbPlI_-aHUXrSqXnptopqksjZfg5_04RLf2ToifEmVoeo_am9fkwUbmnNc03uX6ljDY7n1KsPbheeveJeb1IfKfpRpAMT5Ragf0fa7AvBDCaIvbOaW7dUGs3hxPAw351Fwyvvrb-Iqoqa4jER6559nvI0havucq5OGRjrlNJvcr21qQ5yt-WJ2DLLiMMsuj18816xTlap4M2qvqNcuLcY0nwTUAvd13uQ3hRMobIMScI_zgTbb-yPB8HLqOYPGA3oKWPBjGaXV9u-ya5mnkEBEgULQ9JRrjt3aZ-58dwSlyrt2RlAd6N00gQ8AEybGHquQEiAXlmuyKT6AGLoAH0f62uQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljclPjF356QA7EJwU9KMKDNhpCACgGYCwHICwGADAGiDAOQAQHaDBAKChCAvc-FoP_6smsSAgEDqg0CSU7IDQHqDRMI1cGJxt-ekAMVd_IWBR03XBL08A0CiA4J2BMCiBQB0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAuTS9BEgo0OTcwMjEyMjIxGAGyGAkSAu9OGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE&num=1&cid=CAQSvwEAwksa0VCGT7RLx4gv4xl6wC0hAhqwMIvQHNG_PWKRza8vO27KOOVTGSno05qW7qEyjBCk-CpgYKA0BFNXkqgR5VIg8vAimcu3-exFq_Hd5sUIDf-KgTZ_D_-lMdhYeAFUc5daYkE4aYDBT4LhfMT7LKc7l5PZ7PqfFyzNPkS-tf5RfEkzZPggUt4JNYKfyGZP5z1445MDI15127wcSS7a8RzYFpFvUhDgo_Oc3kDjWWWEPtiwW4keTJVDtFwE-RgB&sig=AOD64_2QQ_pbsz51IFyWWl3nHQ7BK2n2nw&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.indiabonds.com/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dpt-google-display-traffic-26april24%26utm_content%3DATFHstatic%26gad_source%3D5%26gad_campaignid%3D21229145445%26gclid%3DEAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE
+                - link "IndiaBonds" [ref=f1e24] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CUR8uZKrraJG_KPfk29gPt7jJoA_tmbrbgQHHsvPB9hTb2R4QASCVlJmjAWDlkuiD2A6gAZeBycYByAEJqQJu2_2VcjZIPqgDAcgDywSqBPEBT9Cyw5E63IbPlI_-aHUXrSqXnptopqksjZfg5_04RLf2ToifEmVoeo_am9fkwUbmnNc03uX6ljDY7n1KsPbheeveJeb1IfKfpRpAMT5Ragf0fa7AvBDCaIvbOaW7dUGs3hxPAw351Fwyvvrb-Iqoqa4jER6559nvI0havucq5OGRjrlNJvcr21qQ5yt-WJ2DLLiMMsuj18816xTlap4M2qvqNcuLcY0nwTUAvd13uQ3hRMobIMScI_zgTbb-yPB8HLqOYPGA3oKWPBjGaXV9u-ya5mnkEBEgULQ9JRrjt3aZ-58dwSlyrt2RlAd6N00gQ8AEybGHquQEiAXlmuyKT6AGLoAH0f62uQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljclPjF356QA7EJwU9KMKDNhpCACgGYCwHICwGADAGiDAOQAQHaDBAKChCAvc-FoP_6smsSAgEDqg0CSU7IDQHqDRMI1cGJxt-ekAMVd_IWBR03XBL08A0CiA4J2BMCiBQB0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAuTS9BEgo0OTcwMjEyMjIxGAGyGAkSAu9OGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE&num=1&cid=CAQSvwEAwksa0VCGT7RLx4gv4xl6wC0hAhqwMIvQHNG_PWKRza8vO27KOOVTGSno05qW7qEyjBCk-CpgYKA0BFNXkqgR5VIg8vAimcu3-exFq_Hd5sUIDf-KgTZ_D_-lMdhYeAFUc5daYkE4aYDBT4LhfMT7LKc7l5PZ7PqfFyzNPkS-tf5RfEkzZPggUt4JNYKfyGZP5z1445MDI15127wcSS7a8RzYFpFvUhDgo_Oc3kDjWWWEPtiwW4keTJVDtFwE-RgB&sig=AOD64_2QQ_pbsz51IFyWWl3nHQ7BK2n2nw&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://www.indiabonds.com/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dpt-google-display-traffic-26april24%26utm_content%3DATFHstatic%26gad_source%3D5%26gad_campaignid%3D21229145445%26gclid%3DEAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE
+                - link "Open" [ref=f1e26] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CUR8uZKrraJG_KPfk29gPt7jJoA_tmbrbgQHHsvPB9hTb2R4QASCVlJmjAWDlkuiD2A6gAZeBycYByAEJqQJu2_2VcjZIPqgDAcgDywSqBPEBT9Cyw5E63IbPlI_-aHUXrSqXnptopqksjZfg5_04RLf2ToifEmVoeo_am9fkwUbmnNc03uX6ljDY7n1KsPbheeveJeb1IfKfpRpAMT5Ragf0fa7AvBDCaIvbOaW7dUGs3hxPAw351Fwyvvrb-Iqoqa4jER6559nvI0havucq5OGRjrlNJvcr21qQ5yt-WJ2DLLiMMsuj18816xTlap4M2qvqNcuLcY0nwTUAvd13uQ3hRMobIMScI_zgTbb-yPB8HLqOYPGA3oKWPBjGaXV9u-ya5mnkEBEgULQ9JRrjt3aZ-58dwSlyrt2RlAd6N00gQ8AEybGHquQEiAXlmuyKT6AGLoAH0f62uQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljclPjF356QA7EJwU9KMKDNhpCACgGYCwHICwGADAGiDAOQAQHaDBAKChCAvc-FoP_6smsSAgEDqg0CSU7IDQHqDRMI1cGJxt-ekAMVd_IWBR03XBL08A0CiA4J2BMCiBQB0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAuTS9BEgo0OTcwMjEyMjIxGAGyGAkSAu9OGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE&num=1&cid=CAQSvwEAwksa0VCGT7RLx4gv4xl6wC0hAhqwMIvQHNG_PWKRza8vO27KOOVTGSno05qW7qEyjBCk-CpgYKA0BFNXkqgR5VIg8vAimcu3-exFq_Hd5sUIDf-KgTZ_D_-lMdhYeAFUc5daYkE4aYDBT4LhfMT7LKc7l5PZ7PqfFyzNPkS-tf5RfEkzZPggUt4JNYKfyGZP5z1445MDI15127wcSS7a8RzYFpFvUhDgo_Oc3kDjWWWEPtiwW4keTJVDtFwE-RgB&sig=AOD64_2QQ_pbsz51IFyWWl3nHQ7BK2n2nw&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.indiabonds.com/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dpt-google-display-traffic-26april24%26utm_content%3DATFHstatic%26gad_source%3D5%26gad_campaignid%3D21229145445%26gclid%3DEAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE
+                - link [ref=f1e27] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CUR8uZKrraJG_KPfk29gPt7jJoA_tmbrbgQHHsvPB9hTb2R4QASCVlJmjAWDlkuiD2A6gAZeBycYByAEJqQJu2_2VcjZIPqgDAcgDywSqBPEBT9Cyw5E63IbPlI_-aHUXrSqXnptopqksjZfg5_04RLf2ToifEmVoeo_am9fkwUbmnNc03uX6ljDY7n1KsPbheeveJeb1IfKfpRpAMT5Ragf0fa7AvBDCaIvbOaW7dUGs3hxPAw351Fwyvvrb-Iqoqa4jER6559nvI0havucq5OGRjrlNJvcr21qQ5yt-WJ2DLLiMMsuj18816xTlap4M2qvqNcuLcY0nwTUAvd13uQ3hRMobIMScI_zgTbb-yPB8HLqOYPGA3oKWPBjGaXV9u-ya5mnkEBEgULQ9JRrjt3aZ-58dwSlyrt2RlAd6N00gQ8AEybGHquQEiAXlmuyKT6AGLoAH0f62uQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljclPjF356QA7EJwU9KMKDNhpCACgGYCwHICwGADAGiDAOQAQHaDBAKChCAvc-FoP_6smsSAgEDqg0CSU7IDQHqDRMI1cGJxt-ekAMVd_IWBR03XBL08A0CiA4J2BMCiBQB0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAuTS9BEgo0OTcwMjEyMjIxGAGyGAkSAu9OGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE&num=1&cid=CAQSvwEAwksa0VCGT7RLx4gv4xl6wC0hAhqwMIvQHNG_PWKRza8vO27KOOVTGSno05qW7qEyjBCk-CpgYKA0BFNXkqgR5VIg8vAimcu3-exFq_Hd5sUIDf-KgTZ_D_-lMdhYeAFUc5daYkE4aYDBT4LhfMT7LKc7l5PZ7PqfFyzNPkS-tf5RfEkzZPggUt4JNYKfyGZP5z1445MDI15127wcSS7a8RzYFpFvUhDgo_Oc3kDjWWWEPtiwW4keTJVDtFwE-RgB&sig=AOD64_2QQ_pbsz51IFyWWl3nHQ7BK2n2nw&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.indiabonds.com/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dpt-google-display-traffic-26april24%26utm_content%3DATFHstatic%26gad_source%3D5%26gad_campaignid%3D21229145445%26gclid%3DEAIaIQobChMIkYH6xd-ekAMVd_IWBR03XBL0EAEYASAAEgKMLPD_BwE
+                  - generic [ref=f1e28]:
+                    - img [ref=f1e29]
+                    - img [ref=f1e31]
+          - img [ref=f1e39] [cursor=pointer]
+          - button [ref=f1e41] [cursor=pointer]:
+            - img [ref=f1e42]
+          - iframe
+    - paragraph [ref=e41]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e42] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e43]:
+      - insertion [ref=e45]:
+        - generic [ref=e47]:
+          - generic "These are topics related to the article that might interest you" [ref=e48]: Discover more
+          - link "Test automation" [ref=e49] [cursor=pointer]:
+            - img [ref=e51]
+            - text: Test automation
+          - link "test automation" [ref=e53] [cursor=pointer]:
+            - img [ref=e55]
+            - text: test automation
+          - link "API" [ref=e57] [cursor=pointer]:
+            - img [ref=e59]
+            - text: API
+          - link "Test Automation" [ref=e61] [cursor=pointer]:
+            - img [ref=e63]
+            - text: Test Automation
+          - link "Application programming interface" [ref=e65] [cursor=pointer]:
+            - img [ref=e67]
+            - text: Application programming interface
+          - link "File Downloader" [ref=e69] [cursor=pointer]:
+            - img [ref=e71]
+            - text: File Downloader
+          - link "Automation Testing" [ref=e73] [cursor=pointer]:
+            - img [ref=e75]
+            - text: Automation Testing
+          - link "pdf" [ref=e77] [cursor=pointer]:
+            - img [ref=e79]
+            - text: pdf
+          - link "test" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: test
+          - link "PDF" [ref=e85] [cursor=pointer]:
+            - img [ref=e87]
+            - text: PDF
+      - generic [ref=e89]:
+        - generic [ref=e91]:
+          - navigation "breadcrumb mb-2" [ref=e92]:
+            - list [ref=e93]:
+              - listitem [ref=e94]:
+                - link "Home" [ref=e95] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e96]: / File Downloader
+          - heading "File Downloader page for Automation Testing Practice" [level=1] [ref=e97]
+          - generic [ref=e98]:
+            - paragraph [ref=e100]:
+              - text: A file download page that can be used by QA, SDET, and developers to practice downloading file test automation scenarios
+              - link "Developer testing tools" [ref=e101] [cursor=pointer]:
+                - img [ref=e103]
+                - text: Developer testing tools
+              - link "Test case management" [ref=e105] [cursor=pointer]:
+                - img [ref=e107]
+                - text: Test case management
+            - generic [ref=e110]:
+              - paragraph [ref=e111]: This page may contain files uploaded by users with potential security risks. Please do not download any files unless you are sure about their safety.
+              - generic [ref=e112]:
+                - text: "However, the following files are secure and will always be available and not deleted:"
+                - list [ref=e113]:
+                  - listitem [ref=e114]: cdct.jpg
+                  - listitem [ref=e115]: some-file.json
+                  - listitem [ref=e116]: some-file.txt
+                  - listitem [ref=e117]: wdio.png
+                  - listitem [ref=e118]: xpath-css.png
+            - link "1760228334243_Cincinatti Elevate-Aug 29.pdf" [ref=e120] [cursor=pointer]:
+              - /url: download/1760228334243_Cincinatti Elevate-Aug 29.pdf
+              - img [ref=e121]
+              - text: 1760228334243_Cincinatti Elevate-Aug 29.pdf
+            - link "1760228520702_Design Wishlist- Sep 12.pdf" [ref=e124] [cursor=pointer]:
+              - /url: download/1760228520702_Design Wishlist- Sep 12.pdf
+              - img [ref=e125]
+              - text: 1760228520702_Design Wishlist- Sep 12.pdf
+            - link "cdct.jpg" [ref=e128] [cursor=pointer]:
+              - /url: download/cdct.jpg
+              - img [ref=e129]
+              - text: cdct.jpg
+            - link "some-file.json" [ref=e132] [cursor=pointer]:
+              - /url: download/some-file.json
+              - img [ref=e133]
+              - text: some-file.json
+            - link "some-file.txt" [ref=e136] [cursor=pointer]:
+              - /url: download/some-file.txt
+              - img [ref=e137]
+              - text: some-file.txt
+            - link "wdio.png" [ref=e140] [cursor=pointer]:
+              - /url: download/wdio.png
+              - img [ref=e141]
+              - text: wdio.png
+            - link "xpath-css.png" [ref=e144] [cursor=pointer]:
+              - /url: download/xpath-css.png
+              - img [ref=e145]
+              - text: xpath-css.png
+          - link "QA training programs" [ref=e147] [cursor=pointer]:
+            - img [ref=e149]
+            - text: QA training programs
+          - link "Automation testing tools" [ref=e151] [cursor=pointer]:
+            - img [ref=e153]
+            - text: Automation testing tools
+        - insertion [ref=e156]:
+          - generic [ref=e158]:
+            - generic "These are topics related to the article that might interest you" [ref=e159]: Discover more
+            - link "API" [ref=e160] [cursor=pointer]:
+              - img [ref=e162]
+              - text: API
+            - link "Application programming interface" [ref=e164] [cursor=pointer]:
+              - img [ref=e166]
+              - text: Application programming interface
+            - link "Software Testing" [ref=e168] [cursor=pointer]:
+              - img [ref=e170]
+              - text: Software Testing
+            - link "pdf" [ref=e172] [cursor=pointer]:
+              - img [ref=e174]
+              - text: pdf
+            - link "Test Automation" [ref=e176] [cursor=pointer]:
+              - img [ref=e178]
+              - text: Test Automation
+            - link "test automation" [ref=e180] [cursor=pointer]:
+              - img [ref=e182]
+              - text: test automation
+            - link "Testing" [ref=e184] [cursor=pointer]:
+              - img [ref=e186]
+              - text: Testing
+            - link "Test automation" [ref=e188] [cursor=pointer]:
+              - img [ref=e190]
+              - text: Test automation
+            - link "test" [ref=e192] [cursor=pointer]:
+              - img [ref=e194]
+              - text: test
+            - link "Automation Testing" [ref=e196] [cursor=pointer]:
+              - img [ref=e198]
+              - text: Automation Testing
+  - contentinfo [ref=e200]:
+    - generic [ref=e205]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e206]
+      - paragraph [ref=e207]:
+        - text: "Version: 3c2fc05d | Copyright"
+        - link "Expand Testing" [ref=e208] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2025"
+  - img [ref=e210] [cursor=pointer]
+```

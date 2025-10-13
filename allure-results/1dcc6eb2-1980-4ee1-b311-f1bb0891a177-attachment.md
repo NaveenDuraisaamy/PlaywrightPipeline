@@ -1,0 +1,322 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "TestifyStack" [ref=e4] [cursor=pointer]:
+      - /url: https://testifystack.com/
+    - text: "| Email, SMS, OTP and Webhooks Testing Stack for QA & Dev"
+    - link "Test case management" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Test case management
+    - link "QA training programs" [ref=e9] [cursor=pointer]:
+      - img [ref=e11]
+      - text: QA training programs
+  - banner [ref=e14]:
+    - navigation "Main navigation" [ref=e15]:
+      - link "SUT" [ref=e16] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e17]'
+        - text: Practice
+      - generic [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - button "Demos" [ref=e21] [cursor=pointer]
+          - listitem [ref=e22]:
+            - link "Tools" [ref=e23] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e24]:
+            - link "Tips" [ref=e25] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e26]:
+            - link "Test Cases" [ref=e27] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e28]:
+            - link "API Testing" [ref=e29] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e30]:
+            - link "About" [ref=e31] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e32] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e33]:
+    - insertion [ref=e37]:
+      - iframe [ref=e39]:
+        - generic [active] [ref=f1e1]:
+          - generic [ref=f1e6]:
+            - link [ref=f1e7] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAGngnHbsaIvvMJf4rtoPi5XoqQ3u58maggGxhpn2yRPa2R4QASCVlJmjAWDlkuiD2A6gAZSB9eooyAEJqQLop7KQ2IkuPqgDAcgDywSqBIICT9ADS4E9UCJW-Ky0JXEY2UtPmbyAr2J4-jVtK9sv1AkVEm_HxXJEclpYKDvc162_N5BZjyve3Ajn7yyd3waCXHRdwrCPoxpuP5WAt4-978-7uubkWnXtWQfwlQbqWFhYp23GQ7d-Mop7-dl_8XBnknYcJLaLfgy1R8dqDtxEoAeqkOAuutcRyaLEJZ2z0l2F7vXsE49HTIbwIbZGQqFAntW4ZQp7fDxVYk2TJLid3z6ssjN-_PKv1Zida7P5VpHE38GahE17_L6JzZ-QonsBoNmI7a8DkBl11Tf26LdYAWd8FKPdbjq6y1QN_u1XD4ezmiwouUlkbcdyEHhCTA0XeGY_wATEwPH2nQWIBeDg-d5SoAYugAeUucXKA6gH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WK6OiKeioJADsQlI9OoPH4-jNoAKAZgLAcgLAYAMAaIMA5ABAdoMEQoLEMCz4q_k0Kb_0QESAgEDqg0CSU7IDQHqDRMIleWap6KgkAMVF7xLBR2LCjrV8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAACyqSJBEgo0OTcwMjEyMjIxGAGyGAkSAotUGC4iAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE&num=1&cid=CAQSvgEAwksa0ZpeglWtAhUtlAWj3jEiXdkDIKtpMQm96KbM1EdjVloOq9MGApa26e0cInBiZVvPog8O-3c1Mk7DU-PW3OLJL42-xOgVQMXKpVsLUdttc6ZS-G2KcpjT82MiuvX2QcqODsdY0YJ2e6irkH_gjH4fnxO3VWQK9vtuzTL8ZzbEXr2J62Am2Ji7EZwRfhGOj4o1C_JwTNOV7r8YHE3h-A3ur9lQ2IWWwf2d8GkyQMx9iwSV0k144CKlQ9xFGAE&sig=AOD64_1H98Rb__hLqAPPCh-B1nJBzCC4Cg&client=ca-pub-1056034821646296&rf=1&nb=9&adurl=https://bentham.manuscriptpoint.com/journals/TOCENGJ%3F%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22210834528%26utm_campaign%3DDisplay_TOCENGJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22210834528%26gclid%3DEAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE
+              - img [ref=f1e8]
+            - generic [ref=f1e10]:
+              - generic [ref=f1e13]:
+                - link "Publish Open Access for Free!" [ref=f1e16] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAGngnHbsaIvvMJf4rtoPi5XoqQ3u58maggGxhpn2yRPa2R4QASCVlJmjAWDlkuiD2A6gAZSB9eooyAEJqQLop7KQ2IkuPqgDAcgDywSqBIICT9ADS4E9UCJW-Ky0JXEY2UtPmbyAr2J4-jVtK9sv1AkVEm_HxXJEclpYKDvc162_N5BZjyve3Ajn7yyd3waCXHRdwrCPoxpuP5WAt4-978-7uubkWnXtWQfwlQbqWFhYp23GQ7d-Mop7-dl_8XBnknYcJLaLfgy1R8dqDtxEoAeqkOAuutcRyaLEJZ2z0l2F7vXsE49HTIbwIbZGQqFAntW4ZQp7fDxVYk2TJLid3z6ssjN-_PKv1Zida7P5VpHE38GahE17_L6JzZ-QonsBoNmI7a8DkBl11Tf26LdYAWd8FKPdbjq6y1QN_u1XD4ezmiwouUlkbcdyEHhCTA0XeGY_wATEwPH2nQWIBeDg-d5SoAYugAeUucXKA6gH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WK6OiKeioJADsQlI9OoPH4-jNoAKAZgLAcgLAYAMAaIMA5ABAdoMEQoLEMCz4q_k0Kb_0QESAgEDqg0CSU7IDQHqDRMIleWap6KgkAMVF7xLBR2LCjrV8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAACyqSJBEgo0OTcwMjEyMjIxGAGyGAkSAotUGC4iAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE&num=1&cid=CAQSvgEAwksa0ZpeglWtAhUtlAWj3jEiXdkDIKtpMQm96KbM1EdjVloOq9MGApa26e0cInBiZVvPog8O-3c1Mk7DU-PW3OLJL42-xOgVQMXKpVsLUdttc6ZS-G2KcpjT82MiuvX2QcqODsdY0YJ2e6irkH_gjH4fnxO3VWQK9vtuzTL8ZzbEXr2J62Am2Ji7EZwRfhGOj4o1C_JwTNOV7r8YHE3h-A3ur9lQ2IWWwf2d8GkyQMx9iwSV0k144CKlQ9xFGAE&sig=AOD64_1H98Rb__hLqAPPCh-B1nJBzCC4Cg&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://bentham.manuscriptpoint.com/journals/TOCENGJ%3F%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22210834528%26utm_campaign%3DDisplay_TOCENGJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22210834528%26gclid%3DEAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE
+                - link "A Scopus Indexed Open Access Chemical Engineering Journal. Easy online article submission." [ref=f1e19] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAGngnHbsaIvvMJf4rtoPi5XoqQ3u58maggGxhpn2yRPa2R4QASCVlJmjAWDlkuiD2A6gAZSB9eooyAEJqQLop7KQ2IkuPqgDAcgDywSqBIICT9ADS4E9UCJW-Ky0JXEY2UtPmbyAr2J4-jVtK9sv1AkVEm_HxXJEclpYKDvc162_N5BZjyve3Ajn7yyd3waCXHRdwrCPoxpuP5WAt4-978-7uubkWnXtWQfwlQbqWFhYp23GQ7d-Mop7-dl_8XBnknYcJLaLfgy1R8dqDtxEoAeqkOAuutcRyaLEJZ2z0l2F7vXsE49HTIbwIbZGQqFAntW4ZQp7fDxVYk2TJLid3z6ssjN-_PKv1Zida7P5VpHE38GahE17_L6JzZ-QonsBoNmI7a8DkBl11Tf26LdYAWd8FKPdbjq6y1QN_u1XD4ezmiwouUlkbcdyEHhCTA0XeGY_wATEwPH2nQWIBeDg-d5SoAYugAeUucXKA6gH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WK6OiKeioJADsQlI9OoPH4-jNoAKAZgLAcgLAYAMAaIMA5ABAdoMEQoLEMCz4q_k0Kb_0QESAgEDqg0CSU7IDQHqDRMIleWap6KgkAMVF7xLBR2LCjrV8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAACyqSJBEgo0OTcwMjEyMjIxGAGyGAkSAotUGC4iAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE&num=1&cid=CAQSvgEAwksa0ZpeglWtAhUtlAWj3jEiXdkDIKtpMQm96KbM1EdjVloOq9MGApa26e0cInBiZVvPog8O-3c1Mk7DU-PW3OLJL42-xOgVQMXKpVsLUdttc6ZS-G2KcpjT82MiuvX2QcqODsdY0YJ2e6irkH_gjH4fnxO3VWQK9vtuzTL8ZzbEXr2J62Am2Ji7EZwRfhGOj4o1C_JwTNOV7r8YHE3h-A3ur9lQ2IWWwf2d8GkyQMx9iwSV0k144CKlQ9xFGAE&sig=AOD64_1H98Rb__hLqAPPCh-B1nJBzCC4Cg&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://bentham.manuscriptpoint.com/journals/TOCENGJ%3F%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22210834528%26utm_campaign%3DDisplay_TOCENGJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22210834528%26gclid%3DEAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE
+                  - text: A Scopus Indexed Open Access Chemical Engineering Journal. Easy online
+                  - text: article submission.
+              - generic [ref=f1e22]:
+                - link:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAGngnHbsaIvvMJf4rtoPi5XoqQ3u58maggGxhpn2yRPa2R4QASCVlJmjAWDlkuiD2A6gAZSB9eooyAEJqQLop7KQ2IkuPqgDAcgDywSqBIICT9ADS4E9UCJW-Ky0JXEY2UtPmbyAr2J4-jVtK9sv1AkVEm_HxXJEclpYKDvc162_N5BZjyve3Ajn7yyd3waCXHRdwrCPoxpuP5WAt4-978-7uubkWnXtWQfwlQbqWFhYp23GQ7d-Mop7-dl_8XBnknYcJLaLfgy1R8dqDtxEoAeqkOAuutcRyaLEJZ2z0l2F7vXsE49HTIbwIbZGQqFAntW4ZQp7fDxVYk2TJLid3z6ssjN-_PKv1Zida7P5VpHE38GahE17_L6JzZ-QonsBoNmI7a8DkBl11Tf26LdYAWd8FKPdbjq6y1QN_u1XD4ezmiwouUlkbcdyEHhCTA0XeGY_wATEwPH2nQWIBeDg-d5SoAYugAeUucXKA6gH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WK6OiKeioJADsQlI9OoPH4-jNoAKAZgLAcgLAYAMAaIMA5ABAdoMEQoLEMCz4q_k0Kb_0QESAgEDqg0CSU7IDQHqDRMIleWap6KgkAMVF7xLBR2LCjrV8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAACyqSJBEgo0OTcwMjEyMjIxGAGyGAkSAotUGC4iAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE&num=1&cid=CAQSvgEAwksa0ZpeglWtAhUtlAWj3jEiXdkDIKtpMQm96KbM1EdjVloOq9MGApa26e0cInBiZVvPog8O-3c1Mk7DU-PW3OLJL42-xOgVQMXKpVsLUdttc6ZS-G2KcpjT82MiuvX2QcqODsdY0YJ2e6irkH_gjH4fnxO3VWQK9vtuzTL8ZzbEXr2J62Am2Ji7EZwRfhGOj4o1C_JwTNOV7r8YHE3h-A3ur9lQ2IWWwf2d8GkyQMx9iwSV0k144CKlQ9xFGAE&sig=AOD64_1H98Rb__hLqAPPCh-B1nJBzCC4Cg&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://bentham.manuscriptpoint.com/journals/TOCENGJ%3F%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22210834528%26utm_campaign%3DDisplay_TOCENGJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22210834528%26gclid%3DEAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE
+                - link "Open Chem Eng Journal" [ref=f1e24] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAGngnHbsaIvvMJf4rtoPi5XoqQ3u58maggGxhpn2yRPa2R4QASCVlJmjAWDlkuiD2A6gAZSB9eooyAEJqQLop7KQ2IkuPqgDAcgDywSqBIICT9ADS4E9UCJW-Ky0JXEY2UtPmbyAr2J4-jVtK9sv1AkVEm_HxXJEclpYKDvc162_N5BZjyve3Ajn7yyd3waCXHRdwrCPoxpuP5WAt4-978-7uubkWnXtWQfwlQbqWFhYp23GQ7d-Mop7-dl_8XBnknYcJLaLfgy1R8dqDtxEoAeqkOAuutcRyaLEJZ2z0l2F7vXsE49HTIbwIbZGQqFAntW4ZQp7fDxVYk2TJLid3z6ssjN-_PKv1Zida7P5VpHE38GahE17_L6JzZ-QonsBoNmI7a8DkBl11Tf26LdYAWd8FKPdbjq6y1QN_u1XD4ezmiwouUlkbcdyEHhCTA0XeGY_wATEwPH2nQWIBeDg-d5SoAYugAeUucXKA6gH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WK6OiKeioJADsQlI9OoPH4-jNoAKAZgLAcgLAYAMAaIMA5ABAdoMEQoLEMCz4q_k0Kb_0QESAgEDqg0CSU7IDQHqDRMIleWap6KgkAMVF7xLBR2LCjrV8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAACyqSJBEgo0OTcwMjEyMjIxGAGyGAkSAotUGC4iAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE&num=1&cid=CAQSvgEAwksa0ZpeglWtAhUtlAWj3jEiXdkDIKtpMQm96KbM1EdjVloOq9MGApa26e0cInBiZVvPog8O-3c1Mk7DU-PW3OLJL42-xOgVQMXKpVsLUdttc6ZS-G2KcpjT82MiuvX2QcqODsdY0YJ2e6irkH_gjH4fnxO3VWQK9vtuzTL8ZzbEXr2J62Am2Ji7EZwRfhGOj4o1C_JwTNOV7r8YHE3h-A3ur9lQ2IWWwf2d8GkyQMx9iwSV0k144CKlQ9xFGAE&sig=AOD64_1H98Rb__hLqAPPCh-B1nJBzCC4Cg&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://bentham.manuscriptpoint.com/journals/TOCENGJ%3F%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22210834528%26utm_campaign%3DDisplay_TOCENGJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22210834528%26gclid%3DEAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE
+                - link "Learn More" [ref=f1e26] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAGngnHbsaIvvMJf4rtoPi5XoqQ3u58maggGxhpn2yRPa2R4QASCVlJmjAWDlkuiD2A6gAZSB9eooyAEJqQLop7KQ2IkuPqgDAcgDywSqBIICT9ADS4E9UCJW-Ky0JXEY2UtPmbyAr2J4-jVtK9sv1AkVEm_HxXJEclpYKDvc162_N5BZjyve3Ajn7yyd3waCXHRdwrCPoxpuP5WAt4-978-7uubkWnXtWQfwlQbqWFhYp23GQ7d-Mop7-dl_8XBnknYcJLaLfgy1R8dqDtxEoAeqkOAuutcRyaLEJZ2z0l2F7vXsE49HTIbwIbZGQqFAntW4ZQp7fDxVYk2TJLid3z6ssjN-_PKv1Zida7P5VpHE38GahE17_L6JzZ-QonsBoNmI7a8DkBl11Tf26LdYAWd8FKPdbjq6y1QN_u1XD4ezmiwouUlkbcdyEHhCTA0XeGY_wATEwPH2nQWIBeDg-d5SoAYugAeUucXKA6gH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WK6OiKeioJADsQlI9OoPH4-jNoAKAZgLAcgLAYAMAaIMA5ABAdoMEQoLEMCz4q_k0Kb_0QESAgEDqg0CSU7IDQHqDRMIleWap6KgkAMVF7xLBR2LCjrV8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAACyqSJBEgo0OTcwMjEyMjIxGAGyGAkSAotUGC4iAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE&num=1&cid=CAQSvgEAwksa0ZpeglWtAhUtlAWj3jEiXdkDIKtpMQm96KbM1EdjVloOq9MGApa26e0cInBiZVvPog8O-3c1Mk7DU-PW3OLJL42-xOgVQMXKpVsLUdttc6ZS-G2KcpjT82MiuvX2QcqODsdY0YJ2e6irkH_gjH4fnxO3VWQK9vtuzTL8ZzbEXr2J62Am2Ji7EZwRfhGOj4o1C_JwTNOV7r8YHE3h-A3ur9lQ2IWWwf2d8GkyQMx9iwSV0k144CKlQ9xFGAE&sig=AOD64_1H98Rb__hLqAPPCh-B1nJBzCC4Cg&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://bentham.manuscriptpoint.com/journals/TOCENGJ%3F%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22210834528%26utm_campaign%3DDisplay_TOCENGJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22210834528%26gclid%3DEAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE
+                - link [ref=f1e27] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CAGngnHbsaIvvMJf4rtoPi5XoqQ3u58maggGxhpn2yRPa2R4QASCVlJmjAWDlkuiD2A6gAZSB9eooyAEJqQLop7KQ2IkuPqgDAcgDywSqBIICT9ADS4E9UCJW-Ky0JXEY2UtPmbyAr2J4-jVtK9sv1AkVEm_HxXJEclpYKDvc162_N5BZjyve3Ajn7yyd3waCXHRdwrCPoxpuP5WAt4-978-7uubkWnXtWQfwlQbqWFhYp23GQ7d-Mop7-dl_8XBnknYcJLaLfgy1R8dqDtxEoAeqkOAuutcRyaLEJZ2z0l2F7vXsE49HTIbwIbZGQqFAntW4ZQp7fDxVYk2TJLid3z6ssjN-_PKv1Zida7P5VpHE38GahE17_L6JzZ-QonsBoNmI7a8DkBl11Tf26LdYAWd8FKPdbjq6y1QN_u1XD4ezmiwouUlkbcdyEHhCTA0XeGY_wATEwPH2nQWIBeDg-d5SoAYugAeUucXKA6gH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WK6OiKeioJADsQlI9OoPH4-jNoAKAZgLAcgLAYAMAaIMA5ABAdoMEQoLEMCz4q_k0Kb_0QESAgEDqg0CSU7IDQHqDRMIleWap6KgkAMVF7xLBR2LCjrV8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAACyqSJBEgo0OTcwMjEyMjIxGAGyGAkSAotUGC4iAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE&num=1&cid=CAQSvgEAwksa0ZpeglWtAhUtlAWj3jEiXdkDIKtpMQm96KbM1EdjVloOq9MGApa26e0cInBiZVvPog8O-3c1Mk7DU-PW3OLJL42-xOgVQMXKpVsLUdttc6ZS-G2KcpjT82MiuvX2QcqODsdY0YJ2e6irkH_gjH4fnxO3VWQK9vtuzTL8ZzbEXr2J62Am2Ji7EZwRfhGOj4o1C_JwTNOV7r8YHE3h-A3ur9lQ2IWWwf2d8GkyQMx9iwSV0k144CKlQ9xFGAE&sig=AOD64_1H98Rb__hLqAPPCh-B1nJBzCC4Cg&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://bentham.manuscriptpoint.com/journals/TOCENGJ%3F%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22210834528%26utm_campaign%3DDisplay_TOCENGJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22210834528%26gclid%3DEAIaIQobChMIi62Ip6KgkAMVF7xLBR2LCjrVEAEYASAAEgJX0fD_BwE
+                  - generic [ref=f1e28]:
+                    - img [ref=f1e29]
+                    - img [ref=f1e31]
+          - img [ref=f1e39] [cursor=pointer]
+          - button [ref=f1e41] [cursor=pointer]:
+            - img [ref=f1e42]
+          - iframe
+    - paragraph [ref=e41]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e42] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e43]:
+      - insertion [ref=e45]:
+        - generic [ref=e47]:
+          - generic "These are topics related to the article that might interest you" [ref=e48]: Discover more
+          - link "Testing" [ref=e49] [cursor=pointer]:
+            - img [ref=e51]
+            - text: Testing
+          - link "test" [ref=e53] [cursor=pointer]:
+            - img [ref=e55]
+            - text: test
+          - link "Test automation" [ref=e57] [cursor=pointer]:
+            - img [ref=e59]
+            - text: Test automation
+          - link "Application programming interface" [ref=e61] [cursor=pointer]:
+            - img [ref=e63]
+            - text: Application programming interface
+          - link "PDF" [ref=e65] [cursor=pointer]:
+            - img [ref=e67]
+            - text: PDF
+          - link "Software Testing" [ref=e69] [cursor=pointer]:
+            - img [ref=e71]
+            - text: Software Testing
+          - link "API" [ref=e73] [cursor=pointer]:
+            - img [ref=e75]
+            - text: API
+          - link "Test Automation" [ref=e77] [cursor=pointer]:
+            - img [ref=e79]
+            - text: Test Automation
+          - link "Automation Testing" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Automation Testing
+          - link "File Downloader" [ref=e85] [cursor=pointer]:
+            - img [ref=e87]
+            - text: File Downloader
+      - generic [ref=e89]:
+        - generic [ref=e91]:
+          - navigation "breadcrumb mb-2" [ref=e92]:
+            - list [ref=e93]:
+              - listitem [ref=e94]:
+                - link "Home" [ref=e95] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e96]: / File Downloader
+          - heading "File Downloader page for Automation Testing Practice" [level=1] [ref=e97]
+          - generic [ref=e98]:
+            - paragraph [ref=e100]:
+              - text: A file download page that can be used by QA, SDET, and developers to practice downloading file test automation scenarios
+              - link "Developer testing tools" [ref=e101] [cursor=pointer]:
+                - img [ref=e103]
+                - text: Developer testing tools
+              - link "Test case management" [ref=e105] [cursor=pointer]:
+                - img [ref=e107]
+                - text: Test case management
+            - generic [ref=e110]:
+              - paragraph [ref=e111]: This page may contain files uploaded by users with potential security risks. Please do not download any files unless you are sure about their safety.
+              - generic [ref=e112]:
+                - text: "However, the following files are secure and will always be available and not deleted:"
+                - list [ref=e113]:
+                  - listitem [ref=e114]: cdct.jpg
+                  - listitem [ref=e115]: some-file.json
+                  - listitem [ref=e116]: some-file.txt
+                  - listitem [ref=e117]: wdio.png
+                  - listitem [ref=e118]: xpath-css.png
+            - link "1760228334243_Cincinatti Elevate-Aug 29.pdf" [ref=e120] [cursor=pointer]:
+              - /url: download/1760228334243_Cincinatti Elevate-Aug 29.pdf
+              - img [ref=e121]
+              - text: 1760228334243_Cincinatti Elevate-Aug 29.pdf
+            - generic [ref=e123]:
+              - link "QA training programs" [ref=e124] [cursor=pointer]:
+                - img [ref=e126]
+                - text: QA training programs
+              - link "Automation consulting services" [ref=e128] [cursor=pointer]:
+                - img [ref=e130]
+                - text: Automation consulting services
+            - link "1760228520702_Design Wishlist- Sep 12.pdf" [ref=e133] [cursor=pointer]:
+              - /url: download/1760228520702_Design Wishlist- Sep 12.pdf
+              - img [ref=e134]
+              - text: 1760228520702_Design Wishlist- Sep 12.pdf
+            - link "1760282140828_download.png" [ref=e137] [cursor=pointer]:
+              - /url: download/1760282140828_download.png
+              - img [ref=e138]
+              - text: 1760282140828_download.png
+            - link "1760283267517_notes.txt" [ref=e141] [cursor=pointer]:
+              - /url: download/1760283267517_notes.txt
+              - img [ref=e142]
+              - text: 1760283267517_notes.txt
+            - link "1760283771537_Test upload.txt" [ref=e145] [cursor=pointer]:
+              - /url: download/1760283771537_Test upload.txt
+              - img [ref=e146]
+              - text: 1760283771537_Test upload.txt
+            - link "1760283786728_Test upload.txt" [ref=e149] [cursor=pointer]:
+              - /url: download/1760283786728_Test upload.txt
+              - img [ref=e150]
+              - text: 1760283786728_Test upload.txt
+            - link "1760284153830_p4crypter.rar" [ref=e153] [cursor=pointer]:
+              - /url: download/1760284153830_p4crypter.rar
+              - img [ref=e154]
+              - text: 1760284153830_p4crypter.rar
+            - link "1760284171229_SelfishNetv0.2-beta.exe" [ref=e157] [cursor=pointer]:
+              - /url: download/1760284171229_SelfishNetv0.2-beta.exe
+              - img [ref=e158]
+              - text: 1760284171229_SelfishNetv0.2-beta.exe
+            - link "1760284368438_notes.txt" [ref=e161] [cursor=pointer]:
+              - /url: download/1760284368438_notes.txt
+              - img [ref=e162]
+              - text: 1760284368438_notes.txt
+            - link "1760284498940_notes.txt" [ref=e165] [cursor=pointer]:
+              - /url: download/1760284498940_notes.txt
+              - img [ref=e166]
+              - text: 1760284498940_notes.txt
+            - link "1760284710341_Empty" [ref=e169] [cursor=pointer]:
+              - /url: download/1760284710341_Empty
+              - img [ref=e170]
+              - text: 1760284710341_Empty
+            - link "1760284737946_Empty.oooo" [ref=e173] [cursor=pointer]:
+              - /url: download/1760284737946_Empty.oooo
+              - img [ref=e174]
+              - text: 1760284737946_Empty.oooo
+            - link "1760284968451_Empty.xyz" [ref=e177] [cursor=pointer]:
+              - /url: download/1760284968451_Empty.xyz
+              - img [ref=e178]
+              - text: 1760284968451_Empty.xyz
+            - link "1760284988905_Empty.exe" [ref=e181] [cursor=pointer]:
+              - /url: download/1760284988905_Empty.exe
+              - img [ref=e182]
+              - text: 1760284988905_Empty.exe
+            - link "1760285816987_Empty.exe" [ref=e185] [cursor=pointer]:
+              - /url: download/1760285816987_Empty.exe
+              - img [ref=e186]
+              - text: 1760285816987_Empty.exe
+            - link "1760285849432_Empty.exe" [ref=e189] [cursor=pointer]:
+              - /url: download/1760285849432_Empty.exe
+              - img [ref=e190]
+              - text: 1760285849432_Empty.exe
+            - link "1760285935243_88888888888888888888888888888888888888888888888888888888888888888888" [ref=e193] [cursor=pointer]:
+              - /url: download/1760285935243_88888888888888888888888888888888888888888888888888888888888888888888
+              - img [ref=e194]
+              - text: 1760285935243_88888888888888888888888888888888888888888888888888888888888888888888
+            - link "1760285944285_authPopUp.ts" [ref=e197] [cursor=pointer]:
+              - /url: download/1760285944285_authPopUp.ts
+              - img [ref=e198]
+              - text: 1760285944285_authPopUp.ts
+            - link "1760286050003_none.html" [ref=e201] [cursor=pointer]:
+              - /url: download/1760286050003_none.html
+              - img [ref=e202]
+              - text: 1760286050003_none.html
+            - link "1760287786034_dynamic.txt" [ref=e205] [cursor=pointer]:
+              - /url: download/1760287786034_dynamic.txt
+              - img [ref=e206]
+              - text: 1760287786034_dynamic.txt
+            - link "1760287844935_dynamic.txt" [ref=e209] [cursor=pointer]:
+              - /url: download/1760287844935_dynamic.txt
+              - img [ref=e210]
+              - text: 1760287844935_dynamic.txt
+            - link "1760303111782_DNDAgentFile.txt" [ref=e213] [cursor=pointer]:
+              - /url: download/1760303111782_DNDAgentFile.txt
+              - img [ref=e214]
+              - text: 1760303111782_DNDAgentFile.txt
+            - link "1760303127994_DNDAgentFile.txt" [ref=e217] [cursor=pointer]:
+              - /url: download/1760303127994_DNDAgentFile.txt
+              - img [ref=e218]
+              - text: 1760303127994_DNDAgentFile.txt
+            - link "1760313921508_DNDAgentFile.txt" [ref=e221] [cursor=pointer]:
+              - /url: download/1760313921508_DNDAgentFile.txt
+              - img [ref=e222]
+              - text: 1760313921508_DNDAgentFile.txt
+            - link "1760313937659_DNDAgentFile.txt" [ref=e225] [cursor=pointer]:
+              - /url: download/1760313937659_DNDAgentFile.txt
+              - img [ref=e226]
+              - text: 1760313937659_DNDAgentFile.txt
+            - link "1760315992218_doc.pdf" [ref=e229] [cursor=pointer]:
+              - /url: download/1760315992218_doc.pdf
+              - img [ref=e230]
+              - text: 1760315992218_doc.pdf
+            - link "1760323450721_image.png" [ref=e233] [cursor=pointer]:
+              - /url: download/1760323450721_image.png
+              - img [ref=e234]
+              - text: 1760323450721_image.png
+            - link "1760326125150_test.csv" [ref=e237] [cursor=pointer]:
+              - /url: download/1760326125150_test.csv
+              - img [ref=e238]
+              - text: 1760326125150_test.csv
+            - link "cdct.jpg" [ref=e241] [cursor=pointer]:
+              - /url: download/cdct.jpg
+              - img [ref=e242]
+              - text: cdct.jpg
+            - link "some-file.json" [ref=e245] [cursor=pointer]:
+              - /url: download/some-file.json
+              - img [ref=e246]
+              - text: some-file.json
+            - link "some-file.txt" [ref=e249] [cursor=pointer]:
+              - /url: download/some-file.txt
+              - img [ref=e250]
+              - text: some-file.txt
+            - link "wdio.png" [ref=e253] [cursor=pointer]:
+              - /url: download/wdio.png
+              - img [ref=e254]
+              - text: wdio.png
+            - link "xpath-css.png" [ref=e257] [cursor=pointer]:
+              - /url: download/xpath-css.png
+              - img [ref=e258]
+              - text: xpath-css.png
+        - insertion [ref=e261]:
+          - generic [ref=e263]:
+            - generic "These are topics related to the article that might interest you" [ref=e264]: Discover more
+            - link "PDF" [ref=e265] [cursor=pointer]:
+              - img [ref=e267]
+              - text: PDF
+            - link "test automation" [ref=e269] [cursor=pointer]:
+              - img [ref=e271]
+              - text: test automation
+            - link "API" [ref=e273] [cursor=pointer]:
+              - img [ref=e275]
+              - text: API
+            - link "Testing" [ref=e277] [cursor=pointer]:
+              - img [ref=e279]
+              - text: Testing
+            - link "pdf" [ref=e281] [cursor=pointer]:
+              - img [ref=e283]
+              - text: pdf
+            - link "Test automation" [ref=e285] [cursor=pointer]:
+              - img [ref=e287]
+              - text: Test automation
+            - link "test" [ref=e289] [cursor=pointer]:
+              - img [ref=e291]
+              - text: test
+            - link "Application programming interface" [ref=e293] [cursor=pointer]:
+              - img [ref=e295]
+              - text: Application programming interface
+            - link "Software Testing" [ref=e297] [cursor=pointer]:
+              - img [ref=e299]
+              - text: Software Testing
+            - link "Automation Testing" [ref=e301] [cursor=pointer]:
+              - img [ref=e303]
+              - text: Automation Testing
+  - contentinfo [ref=e305]:
+    - generic [ref=e310]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e311]
+      - paragraph [ref=e312]:
+        - text: "Version: 3c2fc05d | Copyright"
+        - link "Expand Testing" [ref=e313] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2025"
+  - img [ref=e315] [cursor=pointer]
+```

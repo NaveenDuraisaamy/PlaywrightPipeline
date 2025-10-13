@@ -1,0 +1,206 @@
+1. What is Playwright?
+Playwright is an open-source automation framework developed by Microsoft for web application testing.
+It supports multiple browsers (Chromium, Firefox, WebKit) and can be used with JavaScript, TypeScript, Python, Java, and .NET.
+
+2. How is Playwright different from Selenium?
+
+Answer:
+
+Feature	                Playwright	                              Selenium
+Browser                 Support	Chromium, Firefox, WebKit	      All major browsers
+Speed	                Faster (uses browser context)	          Slower (uses WebDriver)
+Auto-wait	            Yes	                                      No
+Network Interception	Supported	                              Limited
+API Testing	            Supported	                              Not Supported
+
+3. What programming languages does Playwright support?
+
+Answer:
+JavaScript, TypeScript, Python, Java, and .NET (C#).
+
+4. How do you install Playwright?
+npm init playwright@latest
+
+5. How do you launch a browser in Playwright?
+
+const { chromium } = require('playwright');
+(async () => {
+  const browser = await chromium.launch({ headless: false });
+  const page = await browser.newPage();
+  await page.goto('https://example.com');
+  await browser.close();
+})();
+
+6. What are the different browser contexts in Playwright?
+
+A browser context allows you to create isolated sessions (like separate incognito windows).
+
+const context1 = await browser.newContext();
+const context2 = await browser.newContext();
+
+Each context has its own cookies, cache, and storage.
+
+7. How to take a screenshot in Playwright?
+
+await page.screenshot({ path: 'screenshot.png' });
+
+8. How to record video of test execution?
+
+const context = await browser.newContext({
+  recordVideo: { dir: 'videos/' }
+});
+
+9. How to handle alerts and popups in Playwright?
+
+page.on('dialog', async (dialog) => {
+  console.log(dialog.message());
+  await dialog.accept();
+});
+
+10. How to handle multiple pages or tabs in Playwright? 
+
+const [newPage] = await Promise.all([
+  context.waitForEvent('page'),
+  page.click('a[target="_blank"]')
+]);
+await newPage.bringToFront();
+
+11. What is auto-waiting in Playwright?
+
+Auto-waiting in Playwright is a fundamental feature that automatically waits for elements on a web page to become 
+"actionable" before interacting with them. This eliminates the need for explicit, manual waits in your test code, 
+which are often a source of flakiness and unreliability in end-to-end tests.
+
+13. How to upload a file in Playwright?
+await page.setInputFiles('input[type="file"]', 'path/to/file.txt');
+
+14. How to handle iframes in Playwright?
+const frame = page.frame({ name: 'iframeName' });
+await frame.click('#button');
+
+15. How to perform API testing using Playwright?
+
+const request = await playwright.request.newContext();
+const response = await request.get('https://api.github.com');
+console.log(await response.json());
+
+16. How to run tests in headed and headless mode?
+
+npx playwright test --headed
+npx playwright test --headless
+
+17. How do you use locators in Playwright?
+
+Answer:
+
+const button = page.locator('text=Submit');
+await button.click();
+
+
+or CSS/XPath:
+
+await page.locator('#login').click();
+await page.locator('//button[text()="Submit"]').click();
+
+18. How to handle waits manually in Playwright?
+
+await page.waitForTimeout(3000); // Hard wait
+await page.waitForSelector('#element'); // Wait for element
+
+19. How to generate HTML reports in Playwright?
+
+By default, Playwright Test generates an HTML report:
+
+npx playwright test --reporter=html
+npx playwright show-report
+
+20. How to run Playwright tests in parallel?
+
+Answer:
+Playwright runs tests in parallel by default.
+You can control it in playwright.config.ts:
+
+21. How to intercept and modify network requests?
+
+await page.route('**/api/**', async route => {
+  const response = await route.fetch();
+  let body = await response.json();
+  body.newField = 'test';
+  route.fulfill({ body: JSON.stringify(body) });
+});
+
+22. How do you mock API responses?
+
+await page.route('**/api/user', async route => {
+  await route.fulfill({
+    status: 200,
+    contentType: 'application/json',
+    body: JSON.stringify({ name: 'Naveen', id: 1 })
+  });
+});
+
+23. How to use environment variables in Playwright?
+
+Create a .env file and load it using dotenv:
+npm install dotenv
+
+require('dotenv').config();
+await page.goto(process.env.BASE_URL);
+
+24. What are fixtures in Playwright?
+
+Fixtures are reusable setup and teardown functions provided by Playwright Test (e.g., page, browser, context).
+They manage test lifecycles.
+
+Chrome app	            Browser
+New Incognito window   	Context
+Tab inside that window	Page
+
+test('example', async ({ page }) => {
+  await page.goto('https://playwright.dev');
+});
+
+25. How to retry failed tests in Playwright?
+
+In playwright.config.ts:
+retries: 2
+
+26. How do you run specific tests or tags?
+
+npx playwright test tests/example.spec.ts --grep "@smoke"
+test('@smoke Login test', async ({ page }) => { ... });
+
+27. How to run tests across multiple browsers?
+
+In playwright.config.ts:
+
+projects: [
+  { name: 'chromium', use: { browserName: 'chromium' } },
+  { name: 'firefox', use: { browserName: 'firefox' } },
+  { name: 'webkit', use: { browserName: 'webkit' } },
+]
+
+28. How to capture console logs during execution?
+
+page.on('console', msg => console.log(msg.text()));
+
+29. How to debug Playwright tests?
+
+npx playwright test --debug
+await page.pause();
+
+30. How to integrate Playwright with CI/CD (Jenkins, GitHub Actions)?
+
+Add Playwright installation and test commands to your CI YAML or Jenkins pipeline.
+Example (GitHub Actions):
+
+- name: Install dependencies
+  run: npm ci
+- name: Run Playwright tests
+  run: npx playwright test
+
+  31. What is Promise.all()?
+
+“I’ll do some work (like network call, click, wait, etc.), and once I’m done, I’ll tell you (resolve).”
+Promise.all() → allows you to run multiple async tasks together,
+and wait until all of them finish.
