@@ -44,6 +44,24 @@ npx playwright test --headed
 npx playwright test tests/login.spec.ts --project=chromium --headed
 npx playwright test tests/login.spec.ts --project=chromium --headed --debug
 npx playwright show-report
+npx playwright codegen https://testautomationpractice.blogspot.com/
+
+//Allure Report
+npm install --save-dev allure-playwright
+npm install --save-dev @playwright/test
+npx allure generate ./allure-results --clean
+npx allure open ./allure-report
+npx playwright test --reporter=json
+npx playwright test --reporter=allure-playwright
+
+
+
+//Tags
+npx playwright test --grep "@smoke"
+npx playwright test --grep-invert "@regression" (Exclude)
+npx playwright test --grep "@(smoke|login)"
+
+
 
 Locator
 --------
@@ -152,3 +170,9 @@ git push -u origin main
 git add .
 git commit -m "Initial project commit"
 git push
+
+//waits
+Auto Wait
+Explicit Waits
+Network Idle Waits
+Custom Waits

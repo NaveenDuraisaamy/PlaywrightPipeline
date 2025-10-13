@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6306","Login functionality @login","chromium","Sun Oct 12 18:22:26 IST 2025","passed","Sun Oct 12 18:22:32 IST 2025","Demo Application @api","tags.spec.ts","",""
+"","9877","Login functionality @smoke","chromium","Sun Oct 12 18:22:26 IST 2025","passed","Sun Oct 12 18:22:35 IST 2025","Demo Application @api","tags.spec.ts","",""
+"","4991","Sanity functionality @sanity","chromium","Sun Oct 12 18:22:36 IST 2025","passed","Sun Oct 12 18:22:41 IST 2025","Demo Application @api","tags.spec.ts","",""
+"","5856","Regression functionality @regression","chromium","Sun Oct 12 18:22:32 IST 2025","passed","Sun Oct 12 18:22:38 IST 2025","Demo Application @api","tags.spec.ts","",""
