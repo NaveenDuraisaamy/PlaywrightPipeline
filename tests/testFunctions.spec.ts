@@ -37,7 +37,7 @@ test.describe("Test Functions", () => {
   });
 
   // 8️⃣ only — to run only this test
-  test.only("login with valid credentials", async ({ page }) => {
+  test("login with valid credentials", async ({ page }) => {
     console.log("This test case only run among tests.");
     
   });
