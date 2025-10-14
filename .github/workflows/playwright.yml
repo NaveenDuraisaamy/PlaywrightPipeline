@@ -7,7 +7,7 @@ on:
     branches: [ main ]
   workflow_dispatch: # manual trigger
   schedule:
-    - cron: "30 3 * * *"
+    - cron: "30 3 * * *"  # Runs daily at 3:30 AM UTC
 
 jobs:
   test:
@@ -29,7 +29,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test --reporter=list
+        run: npx playwright test --reporter=list,html
 
       - name: Upload Playwright report
         if: always()

@@ -1,0 +1,204 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "TestifyStack" [ref=e4] [cursor=pointer]:
+      - /url: https://testifystack.com/
+    - text: "| Email, SMS, OTP and Webhooks Testing Stack for QA & Dev"
+    - link "Test case management" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Test case management
+    - link "QA certification programs" [ref=e9] [cursor=pointer]:
+      - img [ref=e11]
+      - text: QA certification programs
+  - banner [ref=e14]:
+    - navigation "Main navigation" [ref=e15]:
+      - link "SUT" [ref=e16] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e17]'
+        - text: Practice
+      - generic [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - button "Demos" [ref=e21] [cursor=pointer]
+          - listitem [ref=e22]:
+            - link "Tools" [ref=e23] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e24]:
+            - link "Tips" [ref=e25] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e26]:
+            - link "Test Cases" [ref=e27] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e28]:
+            - link "API Testing" [ref=e29] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e30]:
+            - link "About" [ref=e31] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e32] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e33]:
+    - insertion [ref=e37]:
+      - generic [ref=e39]:
+        - generic "These are topics related to the article that might interest you" [ref=e40]: Discover more
+        - link "PDF" [ref=e41] [cursor=pointer]:
+          - img [ref=e43]
+          - text: PDF
+        - link "Test Automation" [ref=e45] [cursor=pointer]:
+          - img [ref=e47]
+          - text: Test Automation
+        - link "test automation" [ref=e49] [cursor=pointer]:
+          - img [ref=e51]
+          - text: test automation
+        - link "Test automation" [ref=e53] [cursor=pointer]:
+          - img [ref=e55]
+          - text: Test automation
+        - link "Automation Testing" [ref=e57] [cursor=pointer]:
+          - img [ref=e59]
+          - text: Automation Testing
+        - link "API" [ref=e61] [cursor=pointer]:
+          - img [ref=e63]
+          - text: API
+        - link "pdf" [ref=e65] [cursor=pointer]:
+          - img [ref=e67]
+          - text: pdf
+        - link "File Downloader" [ref=e69] [cursor=pointer]:
+          - img [ref=e71]
+          - text: File Downloader
+        - link "Application programming interface" [ref=e73] [cursor=pointer]:
+          - img [ref=e75]
+          - text: Application programming interface
+        - link "Software Testing" [ref=e77] [cursor=pointer]:
+          - img [ref=e79]
+          - text: Software Testing
+    - paragraph [ref=e82]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e83] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e84]:
+      - insertion [ref=e86]:
+        - iframe [ref=e88]:
+          - generic [active] [ref=f1e1]:
+            - generic [ref=f1e3]:
+              - link:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CzsGyZoDuaMu6C4udssUP_5CukQqjr-XYggHJtrTPjBXj47nX7EMQASCVlJmjAWDlgoCA2A6gAZfq2sACyAECqQKqqzmWKXNhPqgDAcgDyQSqBIgCT9A3PmgfmV2vcqu9mfvguV4oqZSfMAl1VMHwNKe12l1sAHtL1avpXQLkGR7VNabD15k80ZlZ_zNoTVVaTaRF59bR69hHwAgxNaqbHaYTIAO8oON3725w099kl3ll301WK-e8UQCBZ0B4LWw0p9_RjmsbSJDeMkuw-HuA7ILIItBNXH4EuuD3JZN_woo_lKCCr5L3kysDtp3PbWu6c5bUmMQelnH09BIi9g7JbGH06RRzyc8JkTXljMhUm-ewg-FvFDCIeBCzbr50vNalVQCbtpzVnbcRPSze1JwANISbR9FpJDWYvHz5A-MWIb3Pa1AN5rb4IXxzLWCMbXnIgUc7ugMk5uDMyEFGwATU-8u4twWIBYWj_fBVoAYCgAfRlaW_AagHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIILwiAYRABGJ8BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WKXr3PWTpJADsQldzwLBe9v2noAKAZgLAcgLAdoMEQoLEMCo9Y7GoqiAogESAgEDqg0CSU7IDQHqDRMI65zy9ZOkkAMVi46sAh1_iCui8A0CiA4J2BMD0BUByhYCCgD4FgGAFwGyFw4YASoKMjQwNjMzNTc0M7oXAjgBqhgXCQAAAADApNFAEgoyNDA2MzM1NzQzGAGyGAkSAoNVGAIiAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIy4Xd9ZOkkAMVi46sAh1_iCuiEAEYASAAEgKa8PD_BwE&num=1&cid=CAQSvgEAwksa0dxhmy7a8TlWqkF1tEsu54-KFzVZVUm2ijbOx-U_SM2zcSq8VVK-c5Yrb8TOXtwTIZoMXVxoBMgZd8M0CPnLn_AZPtuPMcRQFwezPPn_vMsRogKlqhs5wruyzs9gdU9Dkil72Y4VY93-1SODJhe-oaQk32B078IKibbof-ociFLuFOmU60WiRRnGC7QvQdfoQaLirWdJGDFLyRyo5YMS3vxy9w5X3RZF3qvZP6YFoUX55DIxFa26WWdZGAE&sig=AOD64_052nf8wqETIIfesHVPF8Zj9hs9qA&client=ca-pub-1056034821646296&rf=2&nb=2&adurl=https://www.gigabyte.com/Topics/Data-Center%3F%3Ddctopic_gdn_i_09302025%26gad_source%3D5%26gad_campaignid%3D23053947269%26gclid%3DEAIaIQobChMIy4Xd9ZOkkAMVi46sAh1_iCuiEAEYASAAEgKa8PD_BwE
+              - img [ref=f1e7] [cursor=pointer]
+              - button [ref=f1e9] [cursor=pointer]:
+                - img [ref=f1e10]
+            - iframe
+      - generic [ref=e89]:
+        - generic [ref=e91]:
+          - navigation "breadcrumb mb-2" [ref=e92]:
+            - list [ref=e93]:
+              - listitem [ref=e94]:
+                - link "Home" [ref=e95] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e96]: / File Downloader
+          - heading "File Downloader page for Automation Testing Practice" [level=1] [ref=e97]
+          - generic [ref=e98]:
+            - paragraph [ref=e100]:
+              - text: A file download page that can be used by QA, SDET, and developers to practice downloading file test automation scenarios
+              - link "Test automation tools" [ref=e101] [cursor=pointer]:
+                - img [ref=e103]
+                - text: Test automation tools
+              - link "Test case management" [ref=e105] [cursor=pointer]:
+                - img [ref=e107]
+                - text: Test case management
+            - generic [ref=e110]:
+              - paragraph [ref=e111]: This page may contain files uploaded by users with potential security risks. Please do not download any files unless you are sure about their safety.
+              - generic [ref=e112]:
+                - text: "However, the following files are secure and will always be available and not deleted:"
+                - list [ref=e113]:
+                  - listitem [ref=e114]: cdct.jpg
+                  - listitem [ref=e115]: some-file.json
+                  - listitem [ref=e116]: some-file.txt
+                  - listitem [ref=e117]: wdio.png
+                  - listitem [ref=e118]: xpath-css.png
+            - link "1760453615928_ISTQB_Glossary.pdf" [ref=e120] [cursor=pointer]:
+              - /url: download/1760453615928_ISTQB_Glossary.pdf
+              - img [ref=e121]
+              - text: 1760453615928_ISTQB_Glossary.pdf
+            - link "1760453688853_none.&&&" [ref=e124] [cursor=pointer]:
+              - /url: download/1760453688853_none.&&&
+              - img [ref=e125]
+              - text: 1760453688853_none.&&&
+            - link "1760454336847_DNDAgentFile.txt" [ref=e128] [cursor=pointer]:
+              - /url: download/1760454336847_DNDAgentFile.txt
+              - img [ref=e129]
+              - text: 1760454336847_DNDAgentFile.txt
+            - link "1760454365609_DNDAgentFile.txt" [ref=e132] [cursor=pointer]:
+              - /url: download/1760454365609_DNDAgentFile.txt
+              - img [ref=e133]
+              - text: 1760454365609_DNDAgentFile.txt
+            - link "cdct.jpg" [ref=e136] [cursor=pointer]:
+              - /url: download/cdct.jpg
+              - img [ref=e137]
+              - text: cdct.jpg
+            - link "some-file.json" [ref=e140] [cursor=pointer]:
+              - /url: download/some-file.json
+              - img [ref=e141]
+              - text: some-file.json
+            - link "some-file.txt" [ref=e144] [cursor=pointer]:
+              - /url: download/some-file.txt
+              - img [ref=e145]
+              - text: some-file.txt
+            - link "wdio.png" [ref=e148] [cursor=pointer]:
+              - /url: download/wdio.png
+              - img [ref=e149]
+              - text: wdio.png
+            - link "xpath-css.png" [ref=e152] [cursor=pointer]:
+              - /url: download/xpath-css.png
+              - img [ref=e153]
+              - text: xpath-css.png
+          - link "QA certification programs" [ref=e155] [cursor=pointer]:
+            - img [ref=e157]
+            - text: QA certification programs
+          - link "Automation software" [ref=e159] [cursor=pointer]:
+            - img [ref=e161]
+            - text: Automation software
+        - insertion [ref=e164]:
+          - generic [ref=e166]:
+            - generic "These are topics related to the article that might interest you" [ref=e167]: Discover more
+            - link "pdf" [ref=e168] [cursor=pointer]:
+              - img [ref=e170]
+              - text: pdf
+            - link "Test automation" [ref=e172] [cursor=pointer]:
+              - img [ref=e174]
+              - text: Test automation
+            - link "Application programming interface" [ref=e176] [cursor=pointer]:
+              - img [ref=e178]
+              - text: Application programming interface
+            - link "File Downloader" [ref=e180] [cursor=pointer]:
+              - img [ref=e182]
+              - text: File Downloader
+            - link "test" [ref=e184] [cursor=pointer]:
+              - img [ref=e186]
+              - text: test
+            - link "Test Automation" [ref=e188] [cursor=pointer]:
+              - img [ref=e190]
+              - text: Test Automation
+            - link "test automation" [ref=e192] [cursor=pointer]:
+              - img [ref=e194]
+              - text: test automation
+            - link "Automation Testing" [ref=e196] [cursor=pointer]:
+              - img [ref=e198]
+              - text: Automation Testing
+            - link "API" [ref=e200] [cursor=pointer]:
+              - img [ref=e202]
+              - text: API
+            - link "Software Testing" [ref=e204] [cursor=pointer]:
+              - img [ref=e206]
+              - text: Software Testing
+  - contentinfo [ref=e208]:
+    - generic [ref=e213]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e214]
+      - paragraph [ref=e215]:
+        - text: "Version: 3c2fc05d | Copyright"
+        - link "Expand Testing" [ref=e216] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2025"
+  - img [ref=e218] [cursor=pointer]
+```
