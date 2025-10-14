@@ -24,7 +24,6 @@ pipeline {
         stage('Publish Test Report') {
             steps {
                 echo 'Generating Playwright HTML Report...'
-                // Do NOT open browser, just generate report
                 bat 'npx playwright show-report'
             }
         }
