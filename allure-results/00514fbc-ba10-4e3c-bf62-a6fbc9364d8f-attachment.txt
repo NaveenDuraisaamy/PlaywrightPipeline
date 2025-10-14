@@ -1,0 +1,5 @@
+Accept the Alert:  I am an alert box!
+Dismiss the Alert:  Press a button!
+Prompt the Alert:  Please enter your name:
+Default Value: Harry Potter
+Hello Hi Naveen D! How are you today?

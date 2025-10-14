@@ -1,0 +1,9 @@
+New Tab Title : Web Table
+Delay Tab Title : Web Table
+Pages length : 5
+Tab Title : Window
+Tab Title : Web Table
+Tab Title : Dashboard
+Tab Title : Web Table
+Tab Title : Dashboard
+Parent Page : Window

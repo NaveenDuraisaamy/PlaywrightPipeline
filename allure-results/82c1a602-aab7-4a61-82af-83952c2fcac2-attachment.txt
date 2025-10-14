@@ -1,0 +1,2 @@
+Single Fakw Path : Single file selected: New Text Document.txt, Size: 0 bytes, Type: text/plain
+Multiple Fakw Path : Multiple files selected: New Text Document.txt, Size: 0 bytes, Type: text/plain Naveen.txt, Size: 0 bytes, Type: text/plain 

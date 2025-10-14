@@ -2,7 +2,7 @@ import { test, expect, request } from '@playwright/test';
 
 test('Check for broken links', async ({ page }) => {
 
-  await page.goto('https://testautomationpractice.blogspot.com/'); // 🔹 Replace with your site
+  await page.goto('https://testautomationpractice.blogspot.com/');
 
   // Create a new request context
   const apiContext = await request.newContext();
