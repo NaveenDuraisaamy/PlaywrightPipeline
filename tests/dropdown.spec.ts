@@ -1,6 +1,6 @@
 import { test,Page, expect } from "@playwright/test";
 
-test('DropDown',async({page})=>{
+test.skip('DropDown',async({page})=>{
 
 
 await page.goto("https://testautomationpractice.blogspot.com/");

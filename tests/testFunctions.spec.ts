@@ -63,14 +63,15 @@ test.describe("Test Functions", () => {
 
   // 12️⃣ step — define smaller steps inside test
   test("verify UI with steps", async ({ page }) => {
+    await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     await test.step("Fill username", async () => {
-      await page.fill("#username", "admin");
+      await page.fill("//input[@name='username']", "Admin");
     });
     await test.step("Fill password", async () => {
-      await page.fill("#password", "wrong");
+      await page.fill("//input[@name='password']", "admin123");
     });
     await test.step("Click login", async () => {
-      await page.click("button[type='submit']");
+      await page.click("//button[@type='submit']");
     });
   });
 
@@ -82,14 +83,15 @@ test.describe("Test Functions", () => {
 
   // 14️⃣ expect.soft — non-blocking assertion
   test("soft assertion example", async ({ page }) => {
-    await page.goto("https://example.com/");
-    await expect.soft(page.locator("h1")).toHaveText("Wrong Heading"); // continues even if fails
+    await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+    await expect.soft(page.locator("//h1[@class='title']")).toHaveText("Wrong Heading"); // continues even if fails
     console.log("✅ Test continues even after soft failure");
   });
 
   // 15️⃣ use — set config at test-level
   test.use({ viewport: { width: 800, height: 600 } });
   test("viewport test", async ({ page }) => {
+    await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     const size = await page.viewportSize();
     console.log(`📏 Viewport: ${size?.width}x${size?.height}`);
   });
