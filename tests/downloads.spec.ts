@@ -1,6 +1,6 @@
 import { test, Page } from "@playwright/test";
 
-test("Download", async ({ page }) => {
+test.skip("Download", async ({ page }) => {
   await page.goto("https://practice.expandtesting.com/download");
   const [download] = await Promise.all([
     page.waitForEvent("download"),

@@ -82,11 +82,19 @@ test.describe("Test Functions", () => {
   });
 
   // 14️⃣ expect.soft — non-blocking assertion
-  test("soft assertion example", async ({ page }) => {
-    await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-    await expect.soft(page.locator("//h1[@class='title']")).toHaveText("Automation Testing Practice"); // continues even if fails
-    console.log("✅ Test continues even after soft failure");
-  });
+ test("soft assertion demo", async ({ page }) => {
+  await page.goto("https://testautomationpractice.blogspot.com/");
+
+  try {
+    await expect.soft(page.locator("(//span[normalize-space()='For Selenium, Cypress & Playwright'])[1]")).toHaveText("For Selenium, Cypress & Playwright");
+  } catch (error) {
+    console.log("⚠️ Soft assertion failed but test continues");
+  }
+
+  await expect(page.locator("(//span[normalize-space()='For Selenium, Cypress & Playwright'])[1]")).toHaveText("For Selenium, Cypress & Playwright");
+  console.log("✅ Test finished successfully");
+});
+
 
   // 15️⃣ use — set config at test-level
   test.use({ viewport: { width: 800, height: 600 } });
