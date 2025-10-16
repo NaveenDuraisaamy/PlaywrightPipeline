@@ -1,0 +1,3 @@
+🟢 Launching browser before all tests...
+➡️ Navigated to login page
+✅ One test completed

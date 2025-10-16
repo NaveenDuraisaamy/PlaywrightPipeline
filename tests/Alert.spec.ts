@@ -6,8 +6,7 @@ test('Alert',async({page})=>{
 
     
     await page.goto('https://testautomationpractice.blogspot.com/');
-   
-   await page.waitForTimeout(2000);
+    await page.waitForTimeout(2000);
 
    //Accept
    page.once('dialog',dialog=>{

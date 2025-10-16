@@ -1,0 +1,4 @@
+➡️ Navigated to login page
+📏 Viewport: 800x600
+✅ One test completed
+🔴 Closing all browser sessions after all tests...

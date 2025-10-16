@@ -1,0 +1,4 @@
+➡️ Navigated to login page
+print test info
+chromium
+✅ One test completed

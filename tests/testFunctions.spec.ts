@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 // 1️⃣ describe — group of related tests
-test.describe("Test Functions", () => {
+test.describe.serial("Test Functions", () => {
 
   // 2️⃣ beforeAll — runs once before all tests
   test.beforeAll(async ({ browser }) => {

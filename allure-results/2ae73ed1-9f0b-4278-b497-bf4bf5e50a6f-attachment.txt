@@ -1,0 +1,3 @@
+➡️ Navigated to login page
+✅ Test finished successfully
+✅ One test completed
